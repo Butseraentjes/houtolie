@@ -136,10 +136,38 @@ h3 { font-size: 1.75rem; }
     box-shadow: 0 8px 30px rgba(0,0,0,0.1);
 }
 
+.product-image-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: var(--spacing-sm);
+}
+
 .product-image {
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+    height: 320px;
+    object-fit: contain;
+}
+
+.color-example {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.color-example.natural {
+    background-color: #F5E6D3;
+}
+
+.color-example.brown {
+    background-color: #8B4513;
+}
+
+.color-example.grey {
+    background-color: #808080;
 }
 
 .product-content {
